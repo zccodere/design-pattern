@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="296.5" y="11.5">com.zccoder.design.pattern.atguigu.principle.segregation.casetwo.Interface1</node>
+    <node x="52.5" y="0.0">com.zccoder.design.pattern.atguigu.principle.segregation.casetwo.Interface2</node>
+    <node x="540.5" y="0.0">com.zccoder.design.pattern.atguigu.principle.segregation.casetwo.Interface3</node>
+    <node x="167.0" y="132.0">com.zccoder.design.pattern.atguigu.principle.segregation.casetwo.DemoA</node>
+    <node x="593.0" y="132.0">com.zccoder.design.pattern.atguigu.principle.segregation.casetwo.DemoD</node>
+    <node x="380.0" y="132.0">com.zccoder.design.pattern.atguigu.principle.segregation.casetwo.DemoC</node>
+    <node x="0.0" y="132.0">com.zccoder.design.pattern.atguigu.principle.segregation.casetwo.DemoB</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.zccoder.design.pattern.atguigu.principle.segregation.casetwo.DemoB" target="com.zccoder.design.pattern.atguigu.principle.segregation.casetwo.Interface1">
+      <point x="36.75" y="-47.5" />
+      <point x="110.25" y="102.0" />
+      <point x="314.875" y="102.0" />
+      <point x="-55.125" y="24.5" />
+    </edge>
+    <edge source="com.zccoder.design.pattern.atguigu.principle.segregation.casetwo.DemoD" target="com.zccoder.design.pattern.atguigu.principle.segregation.casetwo.Interface3">
+      <point x="36.75" y="-47.5" />
+      <point x="703.25" y="112.0" />
+      <point x="650.75" y="112.0" />
+      <point x="36.75" y="36.0" />
+    </edge>
+    <edge source="com.zccoder.design.pattern.atguigu.principle.segregation.casetwo.DemoD" target="com.zccoder.design.pattern.atguigu.principle.segregation.casetwo.Interface1">
+      <point x="-36.75" y="-47.5" />
+      <point x="629.75" y="102.0" />
+      <point x="425.125" y="102.0" />
+      <point x="55.125" y="24.5" />
+    </edge>
+    <edge source="com.zccoder.design.pattern.atguigu.principle.segregation.casetwo.DemoB" target="com.zccoder.design.pattern.atguigu.principle.segregation.casetwo.Interface2">
+      <point x="-36.75" y="-47.5" />
+      <point x="36.75" y="112.0" />
+      <point x="89.25" y="112.0" />
+      <point x="-36.75" y="36.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="370.0" y="113.5" />
+  <SelectedNodes>
+    <node>com.zccoder.design.pattern.atguigu.principle.segregation.casetwo.DemoC</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
