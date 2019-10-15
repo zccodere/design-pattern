@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="76.0">com.zccoder.design.pattern.atguigu.principle.liskov.casetwo.DemoA</node>
+    <node x="101.0" y="76.0">com.zccoder.design.pattern.atguigu.principle.liskov.casetwo.DemoB</node>
+    <node x="40.0" y="0.0">com.zccoder.design.pattern.atguigu.principle.liskov.casetwo.BaseDemo</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.zccoder.design.pattern.atguigu.principle.liskov.casetwo.DemoB" target="com.zccoder.design.pattern.atguigu.principle.liskov.casetwo.BaseDemo">
+      <point x="0.0" y="-13.0" />
+      <point x="141.5" y="51.0" />
+      <point x="116.5" y="51.0" />
+      <point x="25.5" y="13.0" />
+    </edge>
+    <edge source="com.zccoder.design.pattern.atguigu.principle.liskov.casetwo.DemoA" target="com.zccoder.design.pattern.atguigu.principle.liskov.casetwo.BaseDemo">
+      <point x="0.0" y="-13.0" />
+      <point x="40.5" y="51.0" />
+      <point x="65.5" y="51.0" />
+      <point x="-25.5" y="13.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="58.5" y="89.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
