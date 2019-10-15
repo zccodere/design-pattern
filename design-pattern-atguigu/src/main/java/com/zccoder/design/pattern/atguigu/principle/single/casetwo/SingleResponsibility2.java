@@ -8,7 +8,9 @@ package com.zccoder.design.pattern.atguigu.principle.single.casetwo;
 public class SingleResponsibility2 {
 
     public static void main(String[] args) {
-        // 1.遵守了单一职责原则。2.但是这样做改动很大，即将类分解，同时修改客户端。3.改进：直接修改Vehicle类，改动的代码会比较少
+        // 1.遵守了单一职责原则。
+        // 2.但是这样做改动很大，即将类分解，同时修改客户端。
+        // 3.改进：直接修改Vehicle类，改动的代码会比较少。
         RoadVehicle roadVehicle = new RoadVehicle();
         roadVehicle.run("奥迪A6");
         roadVehicle.run("摩托车");
