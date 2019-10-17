@@ -57,7 +57,7 @@ public class Person {
 }
 ```
 
-![image](/src/main/java/com/zccoder/design/pattern/atguigu/uml/person.png)
+![image](/design-pattern-atguigu/src/main/java/com/zccoder/design/pattern/atguigu/uml/person.png)
 
 ### 依赖关系
 
