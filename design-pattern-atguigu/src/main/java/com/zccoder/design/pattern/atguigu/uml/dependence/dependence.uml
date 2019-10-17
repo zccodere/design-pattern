@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="373.0" y="0.0">com.zccoder.design.pattern.atguigu.uml.dependence.Person</node>
+    <node x="0.0" y="0.0">com.zccoder.design.pattern.atguigu.uml.dependence.PersonDao</node>
+    <node x="129.0" y="0.0">com.zccoder.design.pattern.atguigu.uml.dependence.IdCard</node>
+    <node x="166.5" y="76.0">com.zccoder.design.pattern.atguigu.uml.dependence.PersonServiceBean</node>
+    <node x="237.0" y="0.0">com.zccoder.design.pattern.atguigu.uml.dependence.Department</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.zccoder.design.pattern.atguigu.uml.dependence.PersonServiceBean" target="com.zccoder.design.pattern.atguigu.uml.dependence.Person">
+      <point x="79.60000000000002" y="-59.5" />
+      <point x="345.6" y="56.0" />
+      <point x="417.0" y="56.0" />
+      <point x="0.0" y="13.0" />
+    </edge>
+    <edge source="com.zccoder.design.pattern.atguigu.uml.dependence.PersonServiceBean" target="com.zccoder.design.pattern.atguigu.uml.dependence.Department">
+      <point x="39.80000000000001" y="-59.5" />
+      <point x="305.8" y="56.0" />
+      <point x="324.0" y="56.0" />
+      <point x="29.0" y="13.0" />
+    </edge>
+    <edge source="com.zccoder.design.pattern.atguigu.uml.dependence.PersonServiceBean" target="com.zccoder.design.pattern.atguigu.uml.dependence.PersonDao">
+      <point x="-79.60000000000002" y="-59.5" />
+      <point x="186.39999999999998" y="56.0" />
+      <point x="54.5" y="56.0" />
+      <point x="0.0" y="13.0" />
+    </edge>
+    <edge source="com.zccoder.design.pattern.atguigu.uml.dependence.PersonServiceBean" target="com.zccoder.design.pattern.atguigu.uml.dependence.IdCard">
+      <point x="-39.80000000000001" y="-59.5" />
+      <point x="226.2" y="46.0" />
+      <point x="173.0" y="46.0" />
+      <point x="0.0" y="13.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="230.5" y="97.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
