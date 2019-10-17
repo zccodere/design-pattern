@@ -8,4 +8,5 @@
 
 尚硅谷Java设计模式学习笔记及源码
 
-[学习笔记](/design-pattern-atguigu/src/main/java/com/zccoder/design/pattern/atguigu/principle/README.md)
+[设计模式七大原则](/design-pattern-atguigu/PRINCIPLE.md)
+
