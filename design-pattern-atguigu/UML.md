@@ -57,8 +57,6 @@ public class Person {
 }
 ```
 
-![image](/design-pattern-atguigu/src/main/java/com/zccoder/design/pattern/atguigu/uml/person.png)
-
 ### 依赖关系
 
 只要是在类中用到了对方，那么他们之间就存在依赖关系。如果没有对方，连编译都通过不了
@@ -94,4 +92,50 @@ class Person {}
 
 class Department {}
 ```
+
+### 泛化关系
+
+泛化关系实际上就是继承关系，他是依赖关系的特例
+
+```java
+public abstract class AbstractDaoSupport{
+    public void save(Object entity){
+        
+    }
+    
+    public void delete(Object id) {
+
+    }
+}
+
+public class PersonServiceBean extends AbstractDaoSupport{
+    
+}
+```
+
+### 实现关系
+
+实现关系实际上就是A类实现B类，他是依赖关系的特例
+
+```java
+public interface PersonService{
+    
+    void delete(Integer id);
+}
+
+public class PersonServiceImpl implements PersonService{
+    
+    @Override
+    void delete(Integer id) {
+
+    }
+    
+}
+```
+
+### 关联关系
+
+关联关系就是类与类之间的联系，他是依赖关系的特例
+
+
 
